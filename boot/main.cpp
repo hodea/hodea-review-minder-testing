@@ -42,6 +42,10 @@
 
 using namespace hodea;
 
+/*todo:review
+Check if boot_info_rom could also be qualified as constexpr.
+*/
+
 const Boot_info boot_info_rom 
     __attribute__((section(".boot_info"), used)) =
 {
